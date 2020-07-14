@@ -17,10 +17,12 @@ def main():
         cur += 1
         avg = sum/cur
 
-    print("Thx! Bye!\n" + "Sum: " + str(sum))
+    print("Thx! Bye!")
+    print("Sum: " + str(sum))
     print("Numbers: " + str(cur))
     print("Average: " + str(avg))
-    print("Even: " + str(even) + "\n" + "Odd: " + str(odd))
+    print("Even: " + str(even))
+    print("Odd: " + str(odd))
 
 if __name__ == '__main__':
     main()
